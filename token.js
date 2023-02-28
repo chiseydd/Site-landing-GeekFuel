@@ -1,3 +1,7 @@
 window.onload = () => {
-  // TODO
+  YaSendSuggestToken(
+    'https://study-n88v.vercel.app/', {
+      flag: true
+     }
+  )
 };
