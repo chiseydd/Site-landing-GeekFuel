@@ -23,13 +23,6 @@ window.onload = () => {
          redirect_uri: 'https://study-n88v.vercel.app/oauth.html'
       },
       'https://study-n88v.vercel.app/'
-       {
-        parentId: "buttonContainer",
-        view: "button",
-        buttonTheme: "light",
-        buttonSize: "xs",
-        buttonBorderRadius: 20,
-      }
    )
    .then(({ handler }) => handler())
       .then(async (data) => {
