@@ -15,7 +15,7 @@ const fetchYandexData = (token) =>
   );
 
 window.onload = () => {
-  document.getElementById("suggest").onclick = () => {
+  document.getElementByClassName("functions__login functions__btn").onclick = () => {
     YaAuthSuggest.init({
          client_id: '6cc6be492812461fba70ca07defc3f5c',
          response_type: 'token',
